@@ -2,7 +2,7 @@
 .container {
     font-family: 'Poppins', sans-serif;
     padding: 30px;
-    background-color: #f4f6f9; /* Soft background color for clarity */
+    background-color: #EDEDED; /* Light grey background */
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
     animation: fadeIn 1s ease-in-out;
@@ -31,7 +31,7 @@
   .greeting {
     font-size: 2.4rem;
     font-weight: 700;
-    color: #f28d1f; /* Warm orange */
+    color: #F5002B; /* Main red color from Figma */
     margin-bottom: 15px;
   }
   
@@ -41,12 +41,11 @@
     margin-top: 15px;
     line-height: 1.6;
     text-align: center;
-   
   }
   
   .dueDate {
     font-weight: 700;
-    color: #f28d1f;
+    color: #F5002B;
     margin-top: 5px;
   }
   
@@ -60,7 +59,7 @@
   
   /* Card Styling */
   .card {
-    background-color: #ffffff;
+    background-color: #FFFFFF; /* White background for cards */
     border-radius: 15px;
     padding: 25px;
     display: flex;
@@ -88,12 +87,12 @@
   .icon {
     font-size: 3rem; /* Larger icon for better visibility */
     margin-bottom: 15px;
-    color: #f28d1f;
+    color: #FF5573; /* Light pink from Figma */
   }
   
   /* AI Section Styling */
   .aiSection {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 15px;
@@ -103,7 +102,7 @@
   .aiTitle {
     font-size: 1.6rem;
     font-weight: 700;
-    color: #f28d1f;
+    color: #F5002B;
     margin-bottom: 20px;
   }
   
@@ -130,7 +129,7 @@
     padding: 15px 25px;
     border: none;
     border-radius: 25px;
-    background: #ff6b81;
+    background: #F5002B; /* Primary button color */
     color: white;
     font-size: 1.1rem;
     font-weight: 600;
@@ -144,7 +143,7 @@
   }
   
   button:hover {
-    background: #f76c6c;
+    background: #FF5573; /* Light pink hover */
     transform: translateY(-3px); /* Button hover lift effect */
   }
   
@@ -175,7 +174,7 @@
   body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #f4f6f9;
+    background-color: #F4F6F9; /* Light background color for entire page */
   }
   
   h1, h2, h3, h4 {
