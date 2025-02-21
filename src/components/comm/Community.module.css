@@ -1,0 +1,55 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .newPost {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .newPost input,
+  .newPost textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newPost button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .newPost button:hover {
+    background-color: #e65c00;
+  }
+  
+  .posts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .postCard {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .comment {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .noComments {
+    font-size: 14px;
+    color: #999;
+  }
+  

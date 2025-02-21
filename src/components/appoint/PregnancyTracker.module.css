@@ -1,0 +1,379 @@
+.trackerContainer {
+    max-width: 500px;
+    margin: auto;
+    background: #fffaf0;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trackerTitle {
+    font-size: 1.8rem;
+    color: #ff6f61;
+    margin-bottom: 15px;
+  }
+  
+  .progressBar {
+    width: 100%;
+    background: #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    height: 15px;
+  }
+  
+  .progress {
+    height: 100%;
+    background: #ff6f61;
+    transition: width 0.5s ease-in-out;
+  }
+  
+  .weekText {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .milestoneCard {
+    background: #ffe0b2;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 15px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .controls button {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .controls button:hover {
+    background: #e65a50;
+  }
+  
+
+  .babyNameSection, .kickCounter, .contractionTimer, .healthTips {
+    background: #fff3e6;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button {
+    background: #ff6f61;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background: #e65a50;
+  }
+  
+
+  /* PregnancyTracker.module.css */
+
+.trackerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f7f6;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .trackerTitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .progressContainer {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .progressBar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #00bcd4;
+    border-radius: 5px;
+  }
+  
+  .weekText {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+  }
+  
+  .milestoneCard {
+    background: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .milestoneCard h3 {
+    font-size: 1.5rem;
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  .milestoneCard p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .aiTip {
+    background-color: #f1f8f4;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    text-align: center;
+  }
+  
+  .aiTip h4 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .babyGrowth {
+    width: 100%;
+    height: 400px;
+    max-width: 800px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calendarSection {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0097a7;
+  }
+  
+  @media (max-width: 768px) {
+    .trackerContainer {
+      padding: 15px;
+    }
+  
+    .progressBar {
+      height: 8px;
+    }
+  
+    .weekText {
+      font-size: 1rem;
+    }
+  
+    .milestoneCard h3 {
+      font-size: 1.2rem;
+    }
+  
+    .milestoneCard p {
+      font-size: 1rem;
+    }
+  
+    .aiTip h4 {
+      font-size: 1.2rem;
+    }
+  
+    .calendarSection {
+      margin-bottom: 20px;
+    }
+  
+    .controls {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .controls button {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+
+  
+
+  .trackerContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .trackerTitle {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .progressBar {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    height: 20px;
+    width: 100%;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .progress {
+    background-color: #ff9800; /* Orange */
+    height: 100%;
+    border-radius: 20px;
+  }
+  
+  .weekText {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .milestoneCard {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aiTip {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .calendarSection {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .controls button {
+    background-color: #ff9800; /* Orange */
+    border: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #e68a00; /* Darker Orange */
+  }
+  
+  @media (max-width: 768px) {
+    .trackerContainer {
+      padding: 10px;
+    }
+  
+    .trackerTitle {
+      font-size: 1.5rem;
+    }
+  
+    .weekText, .milestoneCard h3 {
+      font-size: 1rem;
+    }
+  
+    .progressBar {
+      height: 15px;
+    }
+  
+    .controls {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .controls button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .calendarSection {
+      padding: 10px;
+    }
+  
+    .aiTip, .milestoneCard {
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .trackerTitle {
+      font-size: 1.2rem;
+    }
+  
+    .weekText {
+      font-size: 0.9rem;
+    }
+  
+    .milestoneCard h3 {
+      font-size: 1rem;
+    }
+  
+    .progress {
+      background-color: #ff9800; /* You can adjust this color */
+    }
+  }
+  

@@ -1,0 +1,149 @@
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Main container */
+  .signinContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background: linear-gradient(to bottom, #FFFDD0, #FFC0CB);
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 2.2rem;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #555;
+    max-width: 400px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styles */
+  form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  /* User selection container */
+  .userOption {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .userOption:hover {
+    background: #ffdde5;
+    transform: scale(1.02);
+  }
+  
+  /* Image styling */
+  .userOption img {
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+  }
+  
+  /* Label & description */
+  .userInfo {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .userInfo label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .userInfo p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 5px 0 0;
+  }
+  
+  /* Radio input */
+  .userOption input {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Button styling */
+  .button {
+    background-color: #08b8f3;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .button:hover {
+    background-color: #7fb7d6;
+    transform: scale(1.05);
+  }
+  
+  /* Guest login button */
+  .guestButton {
+    background-color: #f02144;
+  }
+  
+  .guestButton:hover {
+    background-color: #ff98a9;
+  }
+  
+  /* Responsive */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    form {
+      padding: 15px;
+    }
+  
+    .userOption {
+      flex-direction: column;
+      text-align: center;
+      padding: 15px;
+    }
+  
+    .userOption img {
+      margin-bottom: 8px;
+    }
+  }
+  

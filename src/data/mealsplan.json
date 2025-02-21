@@ -1,0 +1,25 @@
+{
+    "mealPlans": [
+      {
+        "id": 1,
+        "name": "Healthy Pregnancy Meal Plan",
+        "description": "A balanced meal plan to support both you and your baby.",
+        "items": [
+          "Oatmeal with fruits",
+          "Grilled chicken with vegetables",
+          "Smoothie with spinach, banana, and almond milk"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Postnatal Recovery Plan",
+        "description": "Meals focused on recovery after childbirth.",
+        "items": [
+          "Salmon with quinoa",
+          "Greek yogurt with honey and nuts",
+          "Leafy green salad with avocado"
+        ]
+      }
+    ]
+  }
+  

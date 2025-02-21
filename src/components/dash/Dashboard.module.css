@@ -1,0 +1,190 @@
+/* Container Styling */
+.container {
+    font-family: 'Poppins', sans-serif;
+    padding: 30px;
+    background-color: #f4f6f9; /* Soft background color for clarity */
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+    animation: fadeIn 1s ease-in-out;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  /* Fade-in animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Header Section */
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .greeting {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #f28d1f; /* Warm orange */
+    margin-bottom: 15px;
+  }
+  
+  .info {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 15px;
+    line-height: 1.6;
+    text-align: center;
+   
+  }
+  
+  .dueDate {
+    font-weight: 700;
+    color: #f28d1f;
+    margin-top: 5px;
+  }
+  
+  /* Grid Layout for Action Cards */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 25px;
+    margin-bottom: 40px;
+  }
+  
+  /* Card Styling */
+  .card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15); /* Enhanced shadow for hover */
+  }
+  
+  .cardText {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .icon {
+    font-size: 3rem; /* Larger icon for better visibility */
+    margin-bottom: 15px;
+    color: #f28d1f;
+  }
+  
+  /* AI Section Styling */
+  .aiSection {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .aiTitle {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #f28d1f;
+    margin-bottom: 20px;
+  }
+  
+  .supplyList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .supplyItem {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 12px;
+    line-height: 1.6;
+  }
+  
+  .supplyItem::before {
+    content: "🔧"; /* Clear icon before list items */
+    margin-right: 10px;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #ff6b81;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: capitalize;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button:hover {
+    background: #f76c6c;
+    transform: translateY(-3px); /* Button hover lift effect */
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  /* Responsive Text Alignment */
+  @media (max-width: 768px) {
+    .container {
+      padding: 20px;
+    }
+  
+    .greeting {
+      font-size: 2rem;
+    }
+  
+    .cardText {
+      font-size: 1rem;
+    }
+  
+    .card {
+      padding: 20px;
+    }
+  }
+  
+  /* Minor Adjustments for Clean Aesthetic */
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f6f9;
+  }
+  
+  h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin: 0;
+  }
+  

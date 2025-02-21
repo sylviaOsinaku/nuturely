@@ -1,0 +1,22 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Jane Doe",
+        "email": "janedoe@example.com",
+        "role": "mother",
+        "pregnancyStatus": "8 weeks",
+        "profilePicture": "url_to_picture",
+        "subscription": "monthly"
+      },
+      {
+        "id": 2,
+        "name": "Dr. John Smith",
+        "email": "drjohn@example.com",
+        "role": "doctor",
+        "profilePicture": "url_to_picture",
+        "verified": true
+      }
+    ]
+  }
+  

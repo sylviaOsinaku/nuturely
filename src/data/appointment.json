@@ -1,0 +1,21 @@
+{
+    "appointments": [
+      {
+        "id": 1,
+        "doctorId": 2,
+        "userId": 1,
+        "date": "2025-03-10T10:00:00",
+        "status": "confirmed",
+        "type": "antenatal checkup"
+      },
+      {
+        "id": 2,
+        "doctorId": 2,
+        "userId": 1,
+        "date": "2025-03-17T11:00:00",
+        "status": "pending",
+        "type": "follow-up appointment"
+      }
+    ]
+  }
+  
