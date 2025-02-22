@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import PageContext from "../page/PageContext";
 import classes from "./Signin.module.css";
-import nursingMother from "../../assets/images/nursingmother.svg";
-import doctor from "../../assets/images/doc.svg";
-import expectingMother from "../../assets/images/expectantmother.svg";
+// import nursingMother from "../../assets/images/nursingmother.svg";
+// import doctor from "../../assets/images/doc.svg";
+// import expectingMother from "../../assets/images/expectantmother.svg";
 
 function Signin() {
   const ctx = useContext(PageContext);
@@ -35,7 +35,7 @@ function Signin() {
           className={classes.userOption}
           onClick={() => setSelectedOption("nursing")}
         >
-          <img src={nursingMother} alt="Nursing mother" />
+          <img src={""} alt="Nursing mother" />
           <div className={classes.userInfo}>
             <label>Nursing Mother</label>
             <p>You currently have a baby.</p>
@@ -52,7 +52,7 @@ function Signin() {
           className={classes.userOption}
           onClick={() => setSelectedOption("expecting")}
         >
-          <img src={expectingMother} alt="Expecting mother" />
+          <img src={""} alt="Expecting mother" />
           <div className={classes.userInfo}>
             <label>Expecting Mother</label>
             <p>You are currently pregnant.</p>
@@ -69,7 +69,7 @@ function Signin() {
           className={classes.userOption}
           onClick={() => setSelectedOption("doctor")}
         >
-          <img src={doctor} alt="Doctor" />
+          <img src={""} alt="Doctor" />
           <div className={classes.userInfo}>
             <label>Healthcare Professional</label>
             <p>You provide medical care for mothers and babies.</p>
